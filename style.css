@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to bottom, #c2b7e9, #735ae0);
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    font-style: sans-serif;
+    background: linear-gradient(to bottom, #8e7ad6, #4e31cf);
+    background-attachment: fixed;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+nav{
+    text-align: center;
+    font-style: sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #8e7ad6, #4e31cf);
+    border-radius: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 15px;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color:#4e31cf;
+    color:aliceblue;
+    border-radius: 100px;
+}
+section{
+    text-align: justify;
+    display: flex;
+    font-style: bold;
+}
+.kiri{
+    text-align: center;
+    font-style: bold;
+}
+.kanan{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+img{
+    width: 23%;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top: 20px;
+    padding: 20px;
+}
